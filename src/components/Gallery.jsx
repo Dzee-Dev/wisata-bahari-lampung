@@ -14,30 +14,43 @@ const galleryImages = [
     return (
     <>
     <Helmet>
-        <title>Galeri Wisata - Wisata Bahari Lampung</title>
-        <meta name="description" content="Lihat momen-momen terbaik dari perjalanan wisata bersama Wisata Bahari Lampung. Dokumentasi tour pantai dan kegiatan lainnya." />
-        <meta property="og:title" content="Galeri Wisata - Wisata Bahari Lampung" />
-        <meta property="og:description" content="Kumpulan foto dan video perjalanan wisata di pantai Lampung." />
-        <meta property="og:image" content="https://yourdomain.com/assets/images/gallery-cover.jpg" />
-        <meta property="og:url" content="https://yourdomain.com/gallery" />
+      <title>Galeri Wisata - Wisata Bahari Lampung</title>
+      <meta
+        name="description"
+        content="Lihat momen-momen terbaik dari perjalanan wisata bersama Wisata Bahari Lampung. Dokumentasi tour pantai dan kegiatan lainnya."
+      />
+      <meta property="og:title" content="Galeri Wisata - Wisata Bahari Lampung" />
+      <meta
+        property="og:description"
+        content="Kumpulan foto dan video perjalanan wisata di pantai Lampung."
+      />
+      <meta
+        property="og:image"
+        content="https://dzee-dev.github.io/wisata-bahari-lampung/assets/images/gallery-cover.jpg"
+      />
+      <meta
+        property="og:url"
+        content="https://dzee-dev.github.io/wisata-bahari-lampung/gallery"
+      />
 
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "ImageGallery",
-              "name": "Galeri Wisata Bahari Lampung",
-              "url": "https://yourdomain.com/gallery",
-              "image": [
-                "https://yourdomain.com/assets/gallery/img1.jpg",
-                "https://yourdomain.com/assets/gallery/img2.jpg",
-                "https://yourdomain.com/assets/gallery/img3.jpg"
-              ],
-              "description": "Kumpulan foto dan dokumentasi wisata bersama Wisata Bahari Lampung."
-            }
-          `}
-        </script>
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "ImageGallery",
+            "name": "Galeri Wisata Bahari Lampung",
+            "url": "https://dzee-dev.github.io/wisata-bahari-lampung/gallery",
+            "image": [
+              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img1.jpg",
+              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img2.jpg",
+              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img3.jpg"
+            ],
+            "description": "Kumpulan foto dan dokumentasi wisata bersama Wisata Bahari Lampung."
+          }
+        `}
+      </script>
     </Helmet>
+
         
       <section id="gallery" className="py-20 px-6 bg-tropical-yellow">
         <div className="max-w-6xl mx-auto text-center">
