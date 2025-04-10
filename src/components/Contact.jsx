@@ -63,9 +63,9 @@ const Contact = () => {
         />
         <meta
           property="og:image"
-          content="https://dzee-dev.github.io/wisata-bahari-lampung/assets/images/contact-cover.jpg"
+          content="https://wisata-bahari-lampung.vercel.app/assets/images/contact-cover.jpg"
         />
-        <meta property="og:url" content="https://dzee-dev.github.io/wisata-bahari-lampung/contact" />
+        <meta property="og:url" content="https://wisata-bahari-lampung.vercel.app/contact" />
         <script type="application/ld+json">
           {`
             {
@@ -74,7 +74,7 @@ const Contact = () => {
               "mainEntity": {
                 "@type": "Organization",
                 "name": "Wisata Bahari Lampung",
-                "url": "https://dzee-dev.github.io/wisata-bahari-lampung/contact",
+                "url": "https://wisata-bahari-lampung.vercel.app/contact",
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "telephone": "+6281234567890",
