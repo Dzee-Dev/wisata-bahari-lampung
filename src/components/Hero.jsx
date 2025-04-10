@@ -1,5 +1,65 @@
 const Hero = () => {
   return (
+    <>
+    <Helmet>
+      <title>Wisata Bahari Lampung - Tour Guide Pantai Terbaik</title>
+      <meta
+        name="description"
+        content="Nikmati pengalaman wisata pantai terbaik di Lampung bersama tour guide lokal berpengalaman. Booking sekarang juga!"
+      />
+      <meta
+        name="keywords"
+        content="wisata lampung, tour guide lampung, pantai lampung, wisata bahari, trip pantai, travel guide lampung"
+      />
+      <meta name="author" content="Wisata Bahari Lampung" />
+
+      <meta
+        property="og:title"
+        content="Wisata Bahari Lampung - Tour Guide Pantai Terbaik"
+      />
+      <meta
+        property="og:description"
+        content="Eksplor keindahan pantai di Lampung dengan tour guide lokal yang ramah dan berpengalaman."
+      />
+      <meta
+        property="og:image"
+        content="https://wisata-bahari-lampung.vercel.app/assets/images/og-cover.jpg"
+      />
+      <meta
+        property="og:url"
+        content="https://wisata-bahari-lampung.vercel.app"
+      />
+      <meta property="og:type" content="website" />
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Wisata Bahari Lampung" />
+      <meta
+        name="twitter:description"
+        content="Nikmati wisata bahari di Lampung yang tak terlupakan."
+      />
+      <meta
+        name="twitter:image"
+        content="https://wisata-bahari-lampung.vercel.app/assets/images/og-cover.jpg"
+      />
+
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "TravelAgency",
+            "name": "Wisata Bahari Lampung",
+            "url": "https://wisata-bahari-lampung.vercel.app",
+            "logo": "https://wisata-bahari-lampung.vercel.app/assets/images/logo.png",
+            "description": "Tour guide lokal terpercaya di Lampung untuk pengalaman wisata bahari terbaik.",
+            "areaServed": {
+              "@type": "Place",
+              "name": "Lampung, Indonesia"
+            }
+          }
+        `}
+      </script>
+    </Helmet>
+
     <section
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/images/tropical-hero.jpg')" }}
@@ -25,6 +85,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+    </>
   );
 };
 
