@@ -26,11 +26,11 @@ const galleryImages = [
       />
       <meta
         property="og:image"
-        content="https://dzee-dev.github.io/wisata-bahari-lampung/assets/images/gallery-cover.jpg"
+        content="https://wisata-bahari-lampung.vercel.app/assets/images/gallery-cover.jpg"
       />
       <meta
         property="og:url"
-        content="https://dzee-dev.github.io/wisata-bahari-lampung/gallery"
+        content="https://wisata-bahari-lampung.vercel.app/gallery"
       />
 
       <script type="application/ld+json">
@@ -39,17 +39,18 @@ const galleryImages = [
             "@context": "https://schema.org",
             "@type": "ImageGallery",
             "name": "Galeri Wisata Bahari Lampung",
-            "url": "https://dzee-dev.github.io/wisata-bahari-lampung/gallery",
+            "url": "https://wisata-bahari-lampung.vercel.app/gallery",
             "image": [
-              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img1.jpg",
-              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img2.jpg",
-              "https://dzee-dev.github.io/wisata-bahari-lampung/assets/gallery/img3.jpg"
+              "https://wisata-bahari-lampung.vercel.app/assets/gallery/img1.jpg",
+              "https://wisata-bahari-lampung.vercel.app/assets/gallery/img2.jpg",
+              "https://wisata-bahari-lampung.vercel.app/assets/gallery/img3.jpg"
             ],
             "description": "Kumpulan foto dan dokumentasi wisata bersama Wisata Bahari Lampung."
           }
         `}
       </script>
     </Helmet>
+
 
         
       <section id="gallery" className="py-20 px-6 bg-tropical-yellow">
