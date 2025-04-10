@@ -26,69 +26,85 @@ const services = [
     return (
         // SEO Meta Tags
         <>
-        <Helmet>
-        <title>Layanan Wisata - Wisata Bahari Lampung</title>
-        <meta name="description" content="Kami menyediakan layanan tour pantai, snorkeling, guide lokal, dan perjalanan wisata khusus untuk keluarga atau rombongan." />
-        <meta property="og:title" content="Layanan Wisata - Wisata Bahari Lampung" />
-        <meta property="og:description" content="Layanan lengkap untuk pengalaman wisata bahari Anda di Lampung." />
-        <meta property="og:image" content="https://yourdomain.com/assets/images/services-cover.jpg" />
-        <meta property="og:url" content="https://yourdomain.com/services" />
+       <Helmet>
+          <title>Layanan Wisata - Wisata Bahari Lampung</title>
+          <meta
+            name="description"
+            content="Kami menyediakan layanan tour pantai, snorkeling, guide lokal, dan perjalanan wisata khusus untuk keluarga atau rombongan."
+          />
+          <meta
+            property="og:title"
+            content="Layanan Wisata - Wisata Bahari Lampung"
+          />
+          <meta
+            property="og:description"
+            content="Layanan lengkap untuk pengalaman wisata bahari Anda di Lampung."
+          />
+          <meta
+            property="og:image"
+            content="https://wisata-bahari-lampung.vercel.app/assets/images/services-cover.jpg"
+          />
+          <meta
+            property="og:url"
+            content="https://wisata-bahari-lampung.vercel.app/services"
+          />
 
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Service",
-              "name": "Layanan Wisata Bahari Lampung",
-              "provider": {
-                "@type": "Organization",
-                "name": "Wisata Bahari Lampung",
-                "url": "https://yourdomain.com/services"
-              },
-              "serviceType": "Paket Wisata Bahari",
-              "areaServed": {
-                "@type": "Place",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "Lampung",
-                  "addressRegion": "Lampung",
-                  "addressCountry": "ID"
-                }
-              },
-              "offers": {
-                "@type": "OfferCatalog",
-                "name": "Paket Wisata",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Tour Pantai Pribadi",
-                      "description": "Nikmati pantai dengan tour privat bersama guide profesional."
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Snorkeling & Diving",
-                      "description": "Jelajahi keindahan bawah laut Lampung dengan aman dan nyaman."
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Paket Wisata Keluarga",
-                      "description": "Liburan menyenangkan untuk keluarga lengkap dengan aktivitas seru."
-                    }
+          <script type="application/ld+json">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Layanan Wisata Bahari Lampung",
+                "provider": {
+                  "@type": "Organization",
+                  "name": "Wisata Bahari Lampung",
+                  "url": "https://wisata-bahari-lampung.vercel.app/services"
+                },
+                "serviceType": "Paket Wisata Bahari",
+                "areaServed": {
+                  "@type": "Place",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Lampung",
+                    "addressRegion": "Lampung",
+                    "addressCountry": "ID"
                   }
-                ]
+                },
+                "offers": {
+                  "@type": "OfferCatalog",
+                  "name": "Paket Wisata",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Tour Pantai Pribadi",
+                        "description": "Nikmati pantai dengan tour privat bersama guide profesional."
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Snorkeling & Diving",
+                        "description": "Jelajahi keindahan bawah laut Lampung dengan aman dan nyaman."
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Paket Wisata Keluarga",
+                        "description": "Liburan menyenangkan untuk keluarga lengkap dengan aktivitas seru."
+                      }
+                    }
+                  ]
+                }
               }
-            }
-          `}
-        </script>
-    </Helmet>
+            `}
+          </script>
+        </Helmet>
+
 
       <section id="services" className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto text-center">
