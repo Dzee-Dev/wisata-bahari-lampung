@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 const Hero = () => {
   return (
     <>
@@ -85,6 +87,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+
     </>
   );
 };
