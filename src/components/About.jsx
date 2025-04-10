@@ -1,16 +1,27 @@
 import { Helmet } from "react-helmet";
 
 const About = () => {
-
-    return (
+  return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Tentang Kami - Wisata Bahari Lampung</title>
-        <meta name="description" content="Wisata Bahari Lampung adalah penyedia layanan tour guide pantai profesional di Lampung. Temukan siapa kami dan visi misi kami." />
+        <meta
+          name="description"
+          content="Wisata Bahari Lampung adalah penyedia layanan tour guide pantai profesional di Lampung. Temukan siapa kami dan visi misi kami."
+        />
         <meta property="og:title" content="Tentang Kami - Wisata Bahari Lampung" />
-        <meta property="og:description" content="Kenali lebih dekat tim tour guide terpercaya dari Lampung." />
-        <meta property="og:image" content="https://yourdomain.com/assets/images/about-cover.jpg" />
-        <meta property="og:url" content="https://yourdomain.com/about" />
+        <meta
+          property="og:description"
+          content="Kenali lebih dekat tim tour guide terpercaya dari Lampung."
+        />
+        <meta
+          property="og:image"
+          content="https://wisatabaharilampung.vercel.app/assets/images/about-cover.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://wisatabaharilampung.vercel.app/about"
+        />
 
         <script type="application/ld+json">
           {`
@@ -18,8 +29,8 @@ const About = () => {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Wisata Bahari Lampung",
-              "url": "https://yourdomain.com/about",
-              "logo": "https://yourdomain.com/assets/images/logo.png",
+              "url": "https://wisatabaharilampung.vercel.app/about",
+              "logo": "https://wisatabaharilampung.vercel.app/assets/images/logo.png",
               "description": "Wisata Bahari Lampung menyediakan tour guide profesional dan pengalaman wisata bahari terbaik di Lampung.",
               "foundingDate": "2020-01-01",
               "founders": [{
@@ -37,8 +48,8 @@ const About = () => {
             }
           `}
         </script>
-    </Helmet>
-    
+      </Helmet>
+
       <section id="about" className="py-20 px-6 bg-tropical-blue text-white">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-pacifico drop-shadow-md">
@@ -52,10 +63,8 @@ const About = () => {
           </p>
         </div>
       </section>
+    </>
+  );
+};
 
-      </>
-    );
-  };
-  
-  export default About;
-  
+export default About;
